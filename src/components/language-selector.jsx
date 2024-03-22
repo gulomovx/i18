@@ -5,6 +5,7 @@ const languages = [
   { code: "uz", lang: "uzbek" },
   { code: "ru", lang: "russian" },
 ];
+
 const Languageselector = () => {
   const {i18n}=useTranslation()
   const changeLanguage = (lng) => {
